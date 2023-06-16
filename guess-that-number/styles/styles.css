@@ -1,0 +1,117 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(12, 15, 15);
+	line-height: 2rem;
+	color: #dadad6;
+}
+
+h1 {
+	font-family: 'Qahiri', sans-serif;
+	margin: 0;
+	font-size: 5rem;
+	color: rgb(110, 214, 157);
+}
+h2 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+p {
+	margin: 0;
+	line-height: 2rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.container {
+	max-width: 700px;
+	border: 1px dashed rgb(147, 216, 243);
+	padding: 20px;
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+header {
+	color: rgb(247, 239, 239);
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 20px;
+}
+
+.content-area {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.content-area button {
+	background-color: #5fa068; /* Green */
+	border: none;
+	color: rgb(250, 246, 246);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.form-username {
+	display: flex;
+	justify-content: center;
+}
+
+.game-controls {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.screen {
+	border: 3px double rgb(98, 238, 168);
+	padding: 20px;
+	flex: 1;
+	margin: 10px;
+	justify-content: center;
+}
+
+#end {
+	background-image: url(../images/1627244744170.gif);
+	color: rgb(255, 208, 0);
+}
+
+.game-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+#input,
+#btn {
+	padding: 10px;
+	width: 150px;
+}
+
+.d-button {
+	text-align: center;
+}
+
+.difficulty-screen,
+.game,
+.game2,
+.game3,
+.end {
+	display: none;
+}

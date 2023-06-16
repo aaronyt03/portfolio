@@ -68,7 +68,7 @@
                 <div class="section-heading" data-aos="fade-up" data-aos-duration="1000">
                     <h2>About</h2>
                     <div class="about-container">
-                        <img src="/images/profile.jpg" alt="profile" class='profile' data-aos="fade" data-aos-duration="1000">
+                        <img src="images/profile.jpg" alt="profile" class='profile' data-aos="fade" data-aos-duration="1000">
                         <p class='bio' data-aos="fade" data-aos-duration="1000" data-aos-delay="400">Aaron is junior web developer and illustrator hobbyist based in Richmond, BC. When not at the desk coding or drawing, he may be found at a nearby comic book store. 20% chance of spawning by a river staring into the horizon, pondering the meaning of life.</p>
                         <div class="skills" data-aos="fade-up" data-aos-duration="1000">
                             <div>
@@ -105,9 +105,9 @@
                     <h2>Projects</h2>
                     <div class="p3" data-aos="fade-left" data-aos-duration="1000">
                         <div class="demo-container">
-                            <img src="/images/movie.png" alt="movie">
+                            <img src="images/movie.png" alt="movie">
                             <div class="button-container">
-                                <a href="https://www.aaronytlee.com/movie-database/"><b>d e m o</b></a>
+                                <a href="movie-database/index.html"><b>d e m o</b></a>
                                 <a href="https://github.com/aaronyt03/movie-app"><b>c o d e</b></a>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                     </div>
                     <div class="p4" data-aos="fade-left" data-aos-duration="1000">
                         <div class="demo-container">
-                            <img src="/images/wordpress.png" alt="wordpress">
+                            <img src="images/wordpress.png" alt="wordpress">
                             <div class="button-container">
                                 <a href="https://www.aaronytlee.com"><b>d e m o</b></a>
                                 <a href="https://github.com/aaronyt03"><b>c o d e</b></a>
@@ -214,10 +214,10 @@
                     </div>
                     <div class="p2" data-aos="fade-left" data-aos-duration="1000">
                         <div class="demo-container">
-                            <img src="/images/game.png" alt="game">
+                            <img src="images/shoutbox.png" alt="game">
                             <div class="button-container">
-                                <a href="https://www.aaronytlee.com/guess-that-number/"><b>d e m o</b></a>
-                                <a href="https://github.com/aaronyt03/guessing-game/tree/main/guess-that-number%202"><b>c o d e</b></a>
+                                <a href="http://localhost/shoutbox/index.php"><b>d e m o</b></a>
+                                <a href="https://github.com/aaronyt03/yakbaknew"><b>c o d e</b></a>
                             </div>
                         </div>
                         <div class="info-container">
@@ -225,7 +225,51 @@
                                 <button class="accordion">Overview</button>
                                 <div class="panel">
                                     <p class="image-info">
-                                        A guessing game where the objective is to guess the correct number. 
+                                        A comment box where you can log your message onto the comment board with a timestamp.
+                                    </p>
+                                </div>
+                                <button class="accordion">Tools</button>
+                                <div class="panel">
+                                    <p class="image-info">
+                                        PHP
+                                        <br>
+                                        CSS    
+                                    </p>
+                                </div>
+                                <button class="accordion">Features</button>
+                                <div class="panel">
+                                    <p class="image-info">
+                                        <dl>
+                                            <dt>Comment Board</dt>
+                                            <dd>⋗ Timestamp</dd>
+                                            <dd>⋗ Name Input</dd>
+                                            <dd>⋗ Message Input</dd>
+                                        </dl>
+                                    </p>
+                                </div>
+                                <button class="accordion">Development</button>
+                                <div class="panel">
+                                    <p class="image-info">
+                                        Create a database with data to prepopulated placeholder text in a form. Connect database using mysqli_connect. Create a process php that dynamically: checks form submission, validates input and set timezone.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p1" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="demo-container">
+                            <img src="images/typing.png" alt="country">
+                            <div class="button-container">
+                                <a href="typinggame/index.html"><b>d e m o</b></a>
+                                <a href="https://github.com/aaronyt03/typing-hell"><b>c o d e</b></a>
+                            </div>
+                        </div>
+                        <div class="info-container">
+                            <div class="accordian-container">
+                                <button class="accordion">Overview</button>
+                                <div class="panel">
+                                    <p class="image-info">
+                                        A typing game where the objective is to type the word displayed correctly. 
                                     </p>
                                 </div>
                                 <button class="accordion">Tools</button>
@@ -242,71 +286,19 @@
                                 <div class="panel">
                                     <p class="image-info">
                                         <dl>
-                                            <dt>Splash Screen</dt>
-                                            <dd>⋗ Name Input</dd>
+                                            <dt>Game Screen</dt>
                                             <dd>⋗ Level of Difficulty</dd>
-                                            <dt>Main Screen</dt>
-                                            <dd>⋗ Limit number of guesses determined by difficulty chosen</dd>
-                                            <dd>⋗ Display wrong guesses with hint to what to guess next</dd>
-                                            <dt>Game Over Screen</dt>
-                                            <dd>⋗ Scoreboard</dd>
-                                            <dd>⋗ Continue option to keep record of score</dd>
-                                            <dd>⋗ Quit to restart score to 0</dd>
+                                            <dd>⋗ Countdown that increases every time the correct word is typed in the input field</dd>
+                                            <dd>⋗ Scoreboard keeping score of every word typed correctly</dd>
+                                            <dd>⋗ Word that assigns randomly each time word is typed correctly</dd>
+                                            <dd>⋗ Setting that hides difficulty on screen</dd>
                                         </dl>
                                     </p>
                                 </div>
                                 <button class="accordion">Development</button>
                                 <div class="panel">
                                     <p class="image-info">
-                                        Set up game screens in index file. Used showScreen function to show and hide game screens. Used checkName function to make sure input value is valid. Used guessCounter function to determine remaining guesses. CSS styled according to design plan.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p1" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="demo-container">
-                            <img src="/images/country.png" alt="country">
-                            <div class="button-container">
-                                <a href="https://www.aaronytlee.com/country-website/"><b>d e m o</b></a>
-                                <a href="https://github.com/aaronyt03/countryweb/tree/main/country-website"><b>c o d e</b></a>
-                            </div>
-                        </div>
-                        <div class="info-container">
-                            <div class="accordian-container">
-                                <button class="accordion">Overview</button>
-                                <div class="panel">
-                                    <p class="image-info">
-                                        A simple website including: Home, About, Landmarks, Visas and Credits. 
-                                    </p>
-                                </div>
-                                <button class="accordion">Tools</button>
-                                <div class="panel">
-                                    <p class="image-info">
-                                        HTML
-                                        <br>
-                                        CSS
-                                    </p>
-                                </div>
-                                <button class="accordion">Features</button>
-                                <div class="panel">
-                                    <p class="image-info">
-                                        <dl>
-                                            <dt>Internal Navigation</dt>
-                                            <dd>⋗ Anchor Tagging</dd>
-                                            <dd>⋗ Navigation Menu</dd>
-                                            <dt>Extenal Links</dt>
-                                            <dd>⋗ External URLs</dd>
-                                            <dd>⋗ Social Media</dd>
-                                            <dt>UI Features</dt>
-                                            <dd>⋗ Back to Top</dd>
-                                        </dl>
-                                    </p>
-                                </div>
-                                <button class="accordion">Development</button>
-                                <div class="panel">
-                                    <p class="image-info">
-                                        Implemented internal and external links to navigate in and out of the website. 	Included Social Media and a back to top UI to improve quality of life features. A favicon designed and integrated in the browser tab. All styling completed with CSS.
+                                        Create function to get random word from array of words. Create function to add score to scoreboard ++. Create function to determine remaining time --. Verification that text input is === to random word generated. Hard difficulty adds 2 seconds to every correct word. Medium adds 3 and Easy adds 5.
                                     </p>
                                 </div>
                             </div>
@@ -320,7 +312,7 @@
                     <p class='message' data-aos="fade" data-aos-duration="1000" data-aos-delay="400">If you would like to say hi or have any questions, please contact me!</p>
                     <a id="email" href="mailto:aaronyt03@gmail.com"><b>email me</b></a>
                     <a class="sm" href="https://www.linkedin.com/in/aaron-lee-04970194/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></a>
-                    <p class="footer">©2021 Aaron Lee | Web Development</p>
+                    <p class="footer">©2023 Aaron Lee | Web Development</p>
                 </div>
             </section>
         </div>
@@ -330,6 +322,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>AOS.init();</script>
-<script src="/scripts/accordian.js"></script>
+<script src="scripts/accordian.js"></script>
 
 </html>

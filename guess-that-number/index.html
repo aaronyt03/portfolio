@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🃏Guess the Number.</h1>
+        </header>
+
+        <div id="scoreboard">
+            <h2>Player ☞ <span id="pname"></span></h2>
+            <h2>Score <span id="score">✺</span></h2>
+        </div>
+
+
+        <div class="content-area">
+
+            <div class="screen splash" id="splash">
+
+                <h2>✨Instructions✨</h2>
+
+                <p>Guess the right number between 1 to 1000. <br> Each win + 1 score point. <br> Each lost - 1 score point.</p>
+
+                <form action="/" class="form-username">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name">
+                    <button type="submit" id="enterName">҉ Enter Name ҉</button>
+                </form>
+
+            </div>
+
+            <div class="screen difficulty-screen" id="difficulty-screen">
+
+                <h2>What Mode Would You Like to Challenge?</h2>
+
+                <p>🌱 Easy - 15 Guesses <br>🐇 Medium - 10 Guesses <br>🔥 Hard - 5 Guesses</p>
+                
+                <div class="d-button">
+                <button class="btn-difficulty easy" id="btn-difficulty-easy">Easy</button>
+                <button class="btn-difficulty medium" id="btn-difficulty-medium">Medium</button>
+                <button class="btn-difficulty hard" id="btn-difficulty-hard">Hard</button>
+                </div>
+
+            </div>
+
+            <div class="screen game" id="game">
+
+                <h2>✷ 　 　　 　 ·
+                    　 ˚ * .
+                    　 　　 *　　 * ⋆ 　 .
+                    · 　　 ⋆ 　　　 ˚ ˚ 　　 ✦
+                    　 ⋆ · 　 *
+                    　　　　 ⋆ ✧　 　 · 　 ✧　✵
+                    　 · ✵</h2>
+
+                <div class="game-msg">
+                <p id="output"></p>
+                <p>Guesses Remaining: <span class="guesses-remaining"></span></p>
+                </div>
+                <div class="game-input">
+                <input type="number" id="input">
+                <button id="btn">҉ E N T E R ҉</button>
+                </div>
+
+                <div class="game-controls">
+                    <!-- <button class="btn-end">quit</button> -->
+                    <button class="btn-quit">Quit</button>
+                </div>
+
+            </div>
+
+            <div class="screen end" id="end">
+
+                <h2 id="endgame">Game Over</h2>
+                        
+                <div class="game-controls">
+                    <button id="btn-play-again">Keep Playing</button>
+                    <button class="btn-quit">Quit</button>
+                </div>
+    
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="scripts/jquery-3.6.0.min.js"></script>
+<script src="scripts/scripts.js"></script>
+
+</body>
+</html>
